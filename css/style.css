@@ -54,7 +54,6 @@ ul li :hover{
     left: 10px;
     top: 10px;
     font-size: 25px;
-    cursor:pointer;
 }
 .close{
     display:none;
@@ -62,7 +61,6 @@ ul li :hover{
     right: 10px;
     top: 18px;
     font-size: 20px; 
-    cursor:pointer;
 }
 .banner{
     width: 80%;
@@ -210,7 +208,7 @@ footer p span{
     .nav{
         width: 250px;
         height: 100vh;
-        position: absolute;
+        position: fixed;
         z-index: 1000;
         left: -250px;
         top: 0px;
@@ -225,17 +223,25 @@ footer p span{
     }
     .bar{
         display: block;
+        position: fixed;
     }
     .logo-img{
         width: 80%;
+        height: 0px;
     }
-   
+   .inner{
+       width: 80%;
+   }
     nav ul li{
        position: relative;
        margin: 0;
        padding: 0;
        top: -50px;
        margin-bottom: 20px;
+    }
+    .left img{
+     
+        margin-top: 80px;
     }
     .sign-in{
         position: relative;
@@ -253,7 +259,7 @@ footer p span{
         display: block;
     }
 }
-@media only screen and  (max-width:767px){
+@media only screen and  (max-width:768px){
     .eight-box{
         width: 80%;
     }
@@ -273,7 +279,7 @@ footer p span{
         font-size: 1rem;
     }
     .image{
-        margin-top: 80px;
+        margin-top: -20px;
     }
 }
 @media only screen and  (max-width:700px){
