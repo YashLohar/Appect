@@ -108,9 +108,6 @@ ul li :hover{
     background-repeat: no-repeat;
     padding: 100px 0px;
 }
-.position-1{
-    margin-top: 0px;
-}
 .position-2{
     margin-top: 50px;
 }
@@ -308,5 +305,11 @@ footer p span{
     .box{
         width: 100%;
         text-align: center;
+    }
+    .box img{
+        width: 25%;
+    }
+    .box h2{
+       font-size: 1.2rem
     }
 }
